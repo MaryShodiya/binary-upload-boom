@@ -1,0 +1,171 @@
+<%- include('partials/header') -%>
+
+   
+<section class="h-100 bg-dark">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col">
+          <div class="card card-registration my-4">
+            <div class="row g-0">
+             
+              <div class="col-xl-6">
+                <div class="card-body p-md-5 text-black">
+                  <h3 class="mb-5 text-uppercase">EDIT PARTNERSHIP AGREEMENT FORM</h3>
+  
+        <form action="post/postEditProfile" enctype="multipart/form-data" method="POST">
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Example1m">Name of First Partner </label>
+                        <input type="text" id="form3Example1m" class="form-control form-control-lg" name="name" />
+                      </div>
+                    </div>
+               
+                    <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                            <label class="form-label" for="form3Example1n1"> Full Address of First Partner </label>
+                          <input type="text" id="form3Example1n1" class="form-control form-control-lg" name="work" />
+                        </div>
+                      </div>
+
+                  </div>
+  
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Example1m1">Name of Second Partner</label>
+                        <input type="text" id="form3Example1m1" class="form-control form-control-lg"  name="location" />
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Example1n1"> Full Address of Second Partner</label>
+                        <input type="text" id="form3Example1n1" class="form-control form-control-lg" name="work" />
+                       
+                      </div>
+                    </div>
+                  </div>
+                   
+                  <div class="row">
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="form3Example1n1">Purpose of Partnership</label>
+                    <input type="text" id="form3Example9" class="form-control form-control-lg" name="hobbies" />
+
+                    <br/>
+                    <div class="flex items-center justify-center">
+                        <div class="datepicker relative  mb-3 xl:w-96">
+                            <label for="floatingInput">Date of Execution <small> (should be the date when the partners append their signature to this agreement) </small></label>
+                          <input type="date"
+                            class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                            placeholder="Select a Date" />
+                        </div>
+                      </div>
+                 
+                  </div>
+                </div>
+
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="form3Example1n1">Place of Business</label>
+                    <input type="text" id="form3Example9" class="form-control form-control-lg" name="hobbies" />
+                 
+                  </div>
+
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="form3Example1n1"> Terms of Partnership <small>(can be listed chronologically)</small></label>
+                    <input type="text" id="form3Example9" class="form-control form-control-lg" name="hobbies" />
+                 
+                  </div>
+  
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="form3Example1n1">Roles/Duties of the First Partner <small>(can be listed chronologically)</small></label>
+                    <input type="text" id="form3Example90" class="form-control form-control-lg" name="skills" />
+  
+                  </div>
+
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="form3Example1n1">Roles/Duties of the Second Partner <small>(can be listed chronologically)</small></label>
+                    <input type="text" id="form3Example90" class="form-control form-control-lg" name="skills" />
+  
+                  </div>
+
+                  <div class="flex items-center justify-center">
+                    <div class="datepicker relative  mb-3 xl:w-96">
+                        <label for="floatingInput" class="text-gray-700">Duration of Partnership <small> (has two dates; a start and end date)</small></label> 
+                     
+                        <input type="date"
+                        class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                        placeholder="From" />
+
+                        <input type="date"
+                        class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                        placeholder="To" />
+                    </div>
+                  </div> <br/>
+
+                 
+               
+                  <div class="flex justify-center">
+                    <div class="mb-3 xl:w-96">
+                      <select class="form-select appearance-none
+                        block
+                        w-full
+                        px-3
+                        py-1.5
+                        text-base
+                        font-normal
+                        text-gray-700
+                        bg-white bg-clip-padding bg-no-repeat
+                        border border-solid border-gray-300
+                        rounded
+                        transition
+                        ease-in-out
+                        m-0
+                        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+                          <option selected>Form of Capital Contribution</option>
+                          <option value="1">Financial Asset</option>
+                          <option value="2">Non-Financial Asset</option>
+                          <option value="3">Both</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="form3Example1n1">Profit Sharing   <small>(can be listed chronologically and should be outlined extensively) </small></label>
+                    <input type="text" id="form3Example90" class="form-control form-control-lg" name="skills" />
+  
+                  </div>
+
+                 
+                   
+                    <div class="flex items-center justify-center">
+                        <div class="datepicker relative  mb-3 xl:w-96">
+                            <label for="floatingInput" class="text-gray-700">Date for Account Review <small> (usually done once annually) </small></label>
+                          <input type="date"
+                            class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                            placeholder="Select a Date" />
+                        </div>
+                      </div>
+  
+                
+  
+    
+                  <div class="d-flex justify-content-end pt-3">
+                
+                    <button type="submit" class="btn btn-warning btn-lg ms-2">Submit</button>
+                  </div>
+
+                </form>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <script src="js/main.js"></script>
+
+<%- include('partials/footer') -%>

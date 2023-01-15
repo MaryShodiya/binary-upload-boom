@@ -73,4 +73,19 @@ module.exports = {
       res.redirect("/profile");
     }
   },
+
+
+
+//GET AGREEEMENTS 
+
+
+getPartnershipAgreementForm:  (req, res) => {
+  res.render('partnershipform.ejs')
+},
+
+getInfluencingAgreementForm:  (req, res) => {
+  res.render('influencingform.ejs')
+},
+
+
 };
