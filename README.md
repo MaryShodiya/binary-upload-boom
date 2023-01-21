@@ -1,20 +1,34 @@
-# Install
 
-`npm install`
+# Eazy Draft 
 
----
+The Eazy Draft Project is a full stack application built with Node js and Express js with data stored in the MongoDB database
 
-# Things to add
+[Tap to access the project here])
 
-- Create a `.env` file in config folder and add the following as `key = value`
-  - PORT = 2121 (can be any port example: 3000)
-  - DB_STRING = `your database URI`
-  - CLOUD_NAME = `your cloudinary cloud name`
-  - API_KEY = `your cloudinary api key`
-  - API_SECRET = `your cloudinary api secret`
+<img align="right" width="300" src="" alt="" />
 
----
+<img align="right" width="300" src="" alt="" />
 
-# Run
+<img align="right" width="300" src="" alt="" />
 
-`npm start`
+<img align="right" width="300" src="" alt="" />
+
+### The Process
+
+Tech Used: Ejs, CSS, Tailwind, JavaScript, Bootstrap, MERN stack
+
+As always, majority of my project is majorly built on my passion for the legal profession and the need to improve the legal-tech industry.
+This Application contains legal drafts and agreements ranging from partnership to property deed and legal letters.
+
+### How it works
+
+Users input  the required information on the selected template and download your agreement
+
+## Optimization
+Working with a lot of forms so the Bootstrap grid free template was helpful in organising the forms
+
+## Lessons Learned
+
+
+
+

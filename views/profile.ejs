@@ -1,15 +1,15 @@
 <%- include('partials/header') -%>
 
 <div class="p-5 text-center bg-image" style="
-      background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
-      height: 400px;" >
+      background-image: url('imgs/undraw_reviewed_docs_re_9lmr.svg');
+      height: 400px; background-size: contain;" >
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
       <div class="d-flex justify-content-center align-items-center h-100">
         <div class="text-white">
-          <h1 class="mb-3">Heading</h1>
-          <h4 class="mb-3">Subheading</h4>
+          <h1 class="mb-3"></h1>
+          <h4 class="mb-3"></h4>
           <a class="btn btn-outline-light btn-lg" href="#!" role="button"
-          >Call to action</a
+          ></a
           >
         </div>
       </div>
@@ -24,7 +24,7 @@
           <div>
               <p><strong>User Name</strong>: <%= user.userName %></p>
               <p><strong>Email</strong>: <%= user.email %></p>
-              <a href="/logout" class="col-3 btn btn-primary">Logout</a>
+              <a href="/logout" class="col-3 btn btn-success">Logout</a>
           </div>
 
           
@@ -35,10 +35,10 @@
             <div class="container">
               <div class="row hidden-md-up">
                <div class="col-md-4">
-                  <div class="card mb-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
                     <div class="card-block">
                       <h4 class="card-title">Partnership Agreement</h4>
-                      <h6 class="card-subtitle text-muted">Category: Business, Corporate, Industrial, Individual</h6>
+                      <h6 class="card-subtitle text-warning">Category: Business, Corporate, Industrial, Individual</h6>
                       <p class="card-text p-y-1">Tap the card to fill out the details of the agreement.</p>
                       <a href="/partnership" class="card-link">Open</a>
                       <a href="/favourite" class="card-link">Bookmark</a>
@@ -46,10 +46,10 @@
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <div class="card mb-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
                     <div class="card-block">
                       <h4 class="card-title">Basic Contract Agreement (Influencing and Ambassadorial Agreement)</h4>
-                      <h6 class="card-subtitle text-muted">Category: Business, Corporate </h6>
+                      <h6 class="card-subtitle text-warning">Category: Business, Corporate, Individual, Industrial  </h6>
                       <p class="card-text p-y-1">Tap the card to fill out the details of the contract.</p>
                       <a href="/influencing" class="card-link">Open </a>
                       <a href="#" class="card-link">Bookmark</a>
@@ -57,52 +57,392 @@
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <div class="card mb-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
                     <div class="card-block">
-                      <h4 class="card-title">Card title</h4>
-                      <h6 class="card-subtitle text-muted">Support card subtitle</h6>
-                      <p class="card-text p-y-1">Some quick example text to build on the card title .</p>
-                      <a href="#" class="card-link">link</a>
-                      <a href="#" class="card-link">Second link</a>
+                      <h4 class="card-title">Employment Agreement (Workplace Contract Agreements)</h4>
+                      <h6 class="card-subtitle text-warning">Category: Business, Corporate, Individual, Industrial, Workplace, Employment </h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract.</p>
+                      <a href="/employment" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-4">
-                  <div class="card mb-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
                     <div class="card-block">
-                      <h4 class="card-title">Card title</h4>
-                      <h6 class="card-subtitle text-muted">Support card subtitle</h6>
-                      <p class="card-text p-y-1">Some quick example text to build on the card title .</p>
-                      <a href="#" class="card-link">link</a>
-                      <a href="#" class="card-link">Second link</a>
+                      <h4 class="card-title">Independent Contractor Agreement</h4>
+                      <h6 class="card-subtitle text-warning">Category: Business, Corporate, Individual, Industrial</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract.</p>
+                      <a href="/independentcontractor" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <div class="card mb-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
                     <div class="card-block">
-                      <h4 class="card-title">Card title</h4>
-                      <h6 class="card-subtitle text-muted">Support card subtitle</h6>
-                      <p class="card-text p-y-1">Some quick example text to build on the card title .</p>
-                      <a href="#" class="card-link">link</a>
-                      <a href="#" class="card-link">Second link</a>
+                      <h4 class="card-title">Contract of Sale</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/sale" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <div class="card mb-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
                     <div class="card-block">
-                      <h4 class="card-title">Card title</h4>
-                      <h6 class="card-subtitle text-muted">Support card subtitle</h6>
-                      <p class="card-text p-y-1">Some quick example text to build on the card title .</p>
-                      <a href="#" class="card-link">link</a>
-                      <a href="#" class="card-link">Second link</a>
+                      <h4 class="card-title">Deed of Assignment</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/propertydeed" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
                     </div>
                   </div>
                 </div>
               </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Merchandising Agreement</h4>
+                      <h6 class="card-subtitle text-warning">Category: Business, Corporate, Individual, Industrial</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract.</p>
+                      <a href="/merchandising" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Power of Attorney Agreement</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/poa" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Notification Letter</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/notification" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Cover Letter</h4>
+                      <h6 class="card-subtitle text-warning">Category: Business, Corporate, Individual, Industrial</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract.</p>
+                      <a href="/cover" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Complaint Letter</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/complaint" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Appreciation Letter</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/appreciation" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Termination Letter</h4>
+                      <h6 class="card-subtitle text-warning">Category: Business, Corporate, Individual, Industrial</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract.</p>
+                      <a href="/termination" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Extension of Contract</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/eoc" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Tenancy Agreement</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/tenancy" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Letter of Demand</h4>
+                      <h6 class="card-subtitle text-warning">Category: Business, Corporate, Individual, Industrial</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract.</p>
+                      <a href="/demand" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Notice to Quit</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/noq" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Notice to recover possession</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/norp" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Application for Bail</h4>
+                      <h6 class="card-subtitle text-warning">Category: Business, Corporate, Individual, Industrial</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract.</p>
+                      <a href="/bail" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Deed of Lease/Sub-Lease</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/lease" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Deed of Mortgage</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/mortgagedeed" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Bill of Charges</h4>
+                      <h6 class="card-subtitle text-warning">Category: Business, Corporate, Individual, Industrial</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract.</p>
+                      <a href="/charges" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Wills</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/wills" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Codicil </h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/codicil" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Offer Letter</h4>
+                      <h6 class="card-subtitle text-warning">Category: Business, Corporate, Individual, Industrial</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract.</p>
+                      <a href="/offer" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Music Recording Agreement</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/recording" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Production Agreement</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/production" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Artist Management Agreement</h4>
+                      <h6 class="card-subtitle text-warning">Category: Business, Corporate, Individual, Industrial</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract.</p>
+                      <a href="/management" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Publishing Agreement</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/publishing" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Featured Artist Agreement</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/feature" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Advertising Contract Agreement</h4>
+                      <h6 class="card-subtitle text-warning">Category: Business, Corporate, Individual, Industrial</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract.</p>
+                      <a href="/advert" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Billboard Advertising Agreement</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/billboard" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Social Media Advertising Agreement</h4>
+                      <h6 class="card-subtitle text-warning">Category: Property, Real Estate, Sales Agreement, Individual</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract</p>
+                      <a href="/socialmedia" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4" style="padding:2.5rem;">
+                    <div class="card-block">
+                      <h4 class="card-title">Exclusive Agent Agreement</h4>
+                      <h6 class="card-subtitle text-warning">Category: Business, Corporate, Individual, Industrial</h6>
+                      <p class="card-text p-y-1">Tap the card to fill out the details of the contract.</p>
+                      <a href="/excagent" class="card-link">Open</a>
+                      <a href="#" class="card-link">Bookmark</a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
             </div>
           </div>
           </div>

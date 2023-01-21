@@ -1,0 +1,85 @@
+<%- include('partials/header') -%>
+<section class="h-100 bg-dark">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col">
+          <div class="card card-registration my-4" style="border:1px solid green">
+            <div class="row g-0">
+             
+              <div class="col-xl-6">
+                <div class="card-body p-md-5 text-black">
+                  <h3 class="mb-5 text-uppercase">EDIT NOTIFICATION LETTER </h3>
+  
+        <form action="post/postEditProfile" enctype="multipart/form-data" method="POST">
+
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Example1m">Name of Sender </label>
+                        <input type="text" id="form3Example1m" class="form-control form-control-lg" name="name" style="border: 2px solid green" />
+                      </div>
+                    </div>
+               
+                    <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                            <label class="form-label" for="form3Example1n1"> Full Address of Sender</label>
+                          <input type="text" id="form3Example1n1" class="form-control form-control-lg" name="work" style="border:2px solid green" />
+                        </div>
+                      </div>
+
+                  </div>
+  
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Example1m1">Name of Recipient</label>
+                        <input type="text" id="form3Example1m1" class="form-control form-control-lg"  name="location" style="border:2px solid green"/>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label" for="form3Example1n1">Registered Address of Recipient </label>
+                        <input type="text" id="form3Example1n1" class="form-control form-control-lg" name="work" style="border:2px solid green"/>
+                       
+                      </div>
+                    </div>
+                  </div>
+                   
+                  <div class="row">
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="form3Example1n1">Subject of Notification <small>(should be brief and concise) </small> </label>
+                    <textarea class="textareabody" name="question_body" id="question_body" placeholder="Write Subject of Appreciation" ></textarea>
+                    </div>
+
+
+                    <br/>
+                    <div class="flex items-center justify-center">
+                        <div class="datepicker relative  mb-3 xl:w-96">
+                            <label for="floatingInput">Date of Execution <small> (should be the date when both parties append their signature to this agreement) </small></label>
+                          <input type="date"
+                            class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                            placeholder="Select a Date" />
+                        </div>
+                      </div>
+                 
+    
+                  <div class="d-flex justify-content pt-3">
+                
+                    <button type="submit" class="btn btn-success btn-lg ms-2">Submit</button>
+                  </div>
+
+                </form>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <script src="js/main.js"></script>
+
+
+<%- include('partials/footer') -%>

@@ -25,11 +25,14 @@ connectDB();
 app.set("view engine", "ejs");
 
 //Static Folder
+app.use(express.static('node_modules/tw-elements/dist/js'))
+app.use('/public/imgs', express.static('public/imgs'))
+app.use('/public/css', express.static('public/css'))
+app.use('/public/js', express.static('public/js'))
 app.use(express.static("public"));
-app.use('public/imgs', express.static('public/imgs'))
-//Body Parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
 
 //Logging
 app.use(logger("dev"));

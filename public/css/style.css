@@ -9,6 +9,10 @@
     --black: #2b2d42;
     --white: #fff;
     --thumb: #edf2f4;
+    --darkgreen: #2c632c; 
+    --green: #008000;
+  
+
   }
   
   * {
@@ -60,8 +64,8 @@
   }
   
   .card:hover {
-    color: var(--white);
-    background: var(--red);
+    color: var(--darkred);
+    background: var(--darkgreen);
   }
   
   .card .card-title {
@@ -138,4 +142,15 @@
     }
   }
 
+  .textareabody{
+    width:350px;
+    height:400px;
+    resize:none;
+    border: 2px solid green;
+    border-radius:12px;
+    padding: 1rem;
+    outline: none;
+  }
+
+ 
 
