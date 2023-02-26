@@ -3,7 +3,7 @@
 
 The Eazy Draft Project is a full stack application built with Node js and Express js with data stored in the MongoDB database
 
-[Tap to access the project here])
+[Tap to access the project here](https://eazy-draft.onrender.com)
 
 <img align="right" width="300" src="" alt="" />
 
